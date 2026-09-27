@@ -7,10 +7,10 @@ GPIO.setup(17, GPIO.OUT)
 try:
     while True:
         GPIO.output(17, GPIO.HIGH)
-        time.sleep(2)
+        time.sleep(0.5)
 
         GPIO.output(17, GPIO.LOW)
-        time.sleep(2)
+        time.sleep(0.5)
 
 except KeyboardInterrupt:
     pass
